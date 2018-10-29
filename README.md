@@ -2,60 +2,89 @@
 
 ## Java 基础
 
-- 什么是面向对象(OOP)？
+- 什么是面向对象（OOP）？
+- 什么是多态？实现多态的机制是什么？
 - 接口（Interface）与抽象类（Abstract Class）的区别？
-- 覆盖（Overriding）与重载（OverLoading）的区别?
-- 谈谈对 java 多态的理解？
-- 序列化是什么？有哪些方式？
-- 什么是匿名内部类？内部类的作用?
+- 重写（Overriding）与重载（OverLoading）的区别?
 - 父类的静态方法能否被子类重写？
-- 静态属性和静态方法是否可以被继承？是否可以被重写？以及原因？
-- 成员内部类、静态内部类、局部内部类和匿名内部类的理解，以及项目中的应用
-- Java 中 == 和 equals 和 hashCode 的区别？
+- 静态属性和静态方法是否可以被继承？是否可以被重写？为什么？
+- 什么是序列化？怎么实现？有哪些方式？
+- 什么是内部类？
+- 内部类、静态内部类、局部内部类和匿名内部类的区别及作用？
+- == 和 equals 和 hashCode 的区别？
 - Integer 和 int 之间的区别？
-- String 转换成 Integer 的方式及原理
-- Java 中的 final, finally 和 finalize 的区别？
-- Java 中 static 关键字的作用？
-- 泛型中 extends 和 super 的区别？
-- 讲一下常见编码方式？
-- utf-8 编码中的中文占几个字节？int 型几个字节？
-- 静态代理和动态代理的区别，什么场景使用？
-- Java 的异常体系
-- 谈谈你对解析与分派的认识
-- Java 中实现多态的机制是什么？
-- 说说你对 Java 反射的理解
-- 说说你对 Java 注解的理解
-- 说说你对依赖注入的理解
-- 说一下泛型原理，并举例说明
-- Java 中 String 的了解
+- String 转换成 Integer 的方式及原理？
+- 对 String 的了解？
 - String 为什么要设计成不可变的？
+- final、finally 和 finalize 的区别？
+- static 关键字有什么作用？
 
-##  数据结构与算法
+## Java 进阶
 
-- 常用数据结构简介
-- 并发集合了解哪些？
-- 列举 java 的集合以及集合之间的继承关系
-- 集合类以及集合框架
-- 容器类介绍以及之间的区别
+- 线程和进程的区别？
+- 开启线程的三种方式？
+- Thread 与 Runnable 的区别？
+- run() 与 start() 方法的区别？
+- sleep() 与 wait() 方法的区别？
+- wait 与 notify 关键字的区别？
+- 强引用、软引用、弱引用、虚引用之间的区别？
+- String、StringBuffer、StringBuilder 之间的区别？
+- Java 中对象的生命周期？
+- synchronized 关键字的用法、作用及实现原理？
+- volatile 关键字的用法、作用及实现原理？
+- transient 关键字的用法、作用及实现原理？
+- ReentrantLock、synchronized、volatile 之间的区别？
+- 什么是线程池，如何使用?
+- 对并发编程的了解？
+- 多线程断点续传的实现原理？
+- 什么是深拷贝和浅拷贝？
+- 对反射的了解？
+- 对注解的了解？
+- 对依赖注入的了解？
+- 对泛型的了解？
+- 泛型中 extends 和 super 的区别？
+- 对 Java 的异常体系的了解？
+- 对解析与分派的了解？
+- 静态代理和动态代理的区别？有什么场景使用？
+
+## Java 虚拟机
+
+- 简述 JVM 内存模型和内存区域？
+- 简述垃圾回收器的工作原理？
+- 简述 ClassLoader 类加载机制？
+- 哪些情况下的对象会被垃圾回收机制处理掉？
+- 强引用设置为 null，会不会被回收？
+- String a = "a"+"b"+"c" 在内存中创建几个对象？
+- 如何判断对象的生死？垃圾回收算法？新生代，老生代？
+- 对 Dalvik、ART 虚拟机的了解？
+- 对双亲委派模型的了解？
+- 对动态加载（OSGI）的了解？
+- 垃圾回收机制与调用 System.gc() 的区别？
+- 常见编码方式有哪些？
+- utf-8 编码中的中文占几个字节？int 型占几个字节？
+
+##  数据结构
+
+- 简述常见的数据结构？
+- 列举 Java 的集合以及集合之间的继承关系?
 - List、Set、Map 的区别？
-- HashMap 的实现原理
-- ArrayMap 和 HashMap 的对比
-- HashTable 实现原理
-- HashMap 与 HashTable 的区别
-- HashMap 与 HashSet 的区别
+- ArrayList、LinkedList 的区别？
+- HashMap 的实现原理？
+- HashTable 的实现原理？
+- ArrayMap、HashMap、HashTable、HashSet 的区别？
 - HashSet 与 HashMap 怎么判断集合元素重复？
-- ArrayList 和 LinkedList 的区别，以及应用场景
-- 数组和链表的区别
-- 二叉树的深度优先遍历和广度优先遍历的具体实现
-- 堆的结构
-- 堆和树的区别
-- 什么是深拷贝和浅拷贝
-- 讲一下对树，B+ 树的理解
-- 讲一下对图的理解
+- 堆的结构？
+- 树、B+ 树、二叉树、红黑树的了解？
+- 二叉树的深度优先遍历和广度优先遍历？
+- 堆和树的区别？
+- 图的了解？
+
+## 算法
+
 - 排序算法有哪些？
 - 最快的排序算法是哪个？
-- 手写一个冒泡排序
-- 手写快速排序代码
+- 手写冒泡排序
+- 手写快速排序
 - 快速排序的过程、时间复杂度、空间复杂度
 - 手写堆排序
 - 给阿里2万多名员工按年龄排序应该选择哪个算法？
@@ -75,41 +104,6 @@
 - 时针走一圈，时针分针重合几次
 
 
-##  线程、多线程和线程池
-
-- 开启线程的三种方式？
-- 线程和进程的区别？
-- 为什么要有线程，而不是仅仅用进程？
-- run() 和 start() 方法区别？
-- Thread，Runnable 区别？
-- 线程中 sleep() 和 wait() 有什么区别，各有什么含义？
-- 谈谈 wait、notify 关键字的理解
-- 线程间操作 List
-- Java 中什么是强引用、软引用、弱引用以及虚引用？
-- HashMap 和 HashTable 之间的区别？
-- String、StringBuffer、StringBuilder 的区别？
-- Java 中对象的生命周期
-- synchronized 关键字的用法、作用、原理
-- volatile 关键字的用法、作用、原理
-- transient 关键字的用法、作用、原理
-- ReentrantLock 、synchronized 和 volatile 比较
-- 什么是线程池，如何使用?
-- 谈谈你对并发编程的理解并举例说明
-- 多线程断点续传原理及实现
-
-## Java 虚拟机
-
-- 简述垃圾回收器的工作原理
-- 哪些情况下的对象会被垃圾回收机制处理掉？
-- String a = "a"+"b"+"c" 在内存中创建几个对象？
-- Java 类的加载过程？
-- ClassLoader 类加载机制
-- 如何判断对象的生死？垃圾回收算法？新生代，老生代？
-- 对Dalvik、ART虚拟机有什么了解？
-- 谈谈你对双亲委派模型理解
-- 谈谈对动态加载（OSGI）的理解
-- JVM内存模型，内存区域
-- 垃圾回收机制与调用System.gc()区别
 
 ## Kotlin
 
@@ -119,117 +113,129 @@
 ## Android 基础
 
 - 四大组件是什么？
-- 四大组件的生命周期和简单用法
-- Activity 之间的通信方式
-- Activity 各种情况下的生命周期
-- 横竖屏切换的时候，Activity 各种情况下的生命周期
-- Activity 与 Fragment 之间生命周期比较
-- Activity 上有 Dialog 的时候按 Home 键时的生命周期
-- 两个Activity 之间跳转时必然会执行的是哪几个方法？
-- 前台切换到后台，然后再回到前台，Activity 生命周期回调方法。弹出Dialog，生命值周期回调方法。
-- Activity 的四种启动模式对比
-- Activity 状态保存于恢复
-- Fragment各种情况下的生命周期
-- Fragment 状态保存 startActivityForResult 是哪个类的方法，在什么情况下使用？
+- 四大组件的生命周期？
+- Activity 之间的通信方式？
+- Activity 各种情况下的生命周期？
+1. 横竖屏切换时 Activity 的生命周期
+2. 前台切换到后台，然后再回到前台时 Activity 的生命周期
+3. 弹出 Dialog 的时候按 Home 键时 Activity 的生命周期
+4. 两个 Activity 之间跳转时的生命周期
+5. 下拉状态栏时 Activity 的生命周期
+- Activity 与 Fragment 之间生命周期比较？
+- Activity 的四种启动模式的区别？
+- Activity 状态保存与恢复？
+- Fragment 各种情况下的生命周期？
 - Fragment 之间传递数据的方式？
-- Activity 怎么和 Service 绑定？
-- 怎么在Activity 中启动自己对应的Service？
-- Service 和 Activity 怎么进行数据交互？
-- Service 的开启方式
-- 请描述一下 Service 的生命周期
-- 谈谈你对 ContentProvider 的理解
-- 说说 ContentProvider、ContentResolver、ContentObserver 之间的关系
-- 请描述一下广播 BroadcastReceiver 的理解
-- 广播的分类
-- 广播使用的方式和场景
-- 在 manifest 和代码中如何注册和使用 BroadcastReceiver?
-- 本地广播和全局广播有什么差别？
-- AlertDialog、popupWindow、Activity 区别
-- Application 和 Activity 的 Context 对象的区别
-- Android 属性动画特性
-- LinearLayout、RelativeLayout、FrameLayout 的特性及对比，并介绍使用场景
-- 介绍下 SurfaceView
-- RecycleView 的使用
+- Service 的生命周期？
+- Service 的启动方式？
+- Service 和 Activity 之间的通信方式？
+- 对 ContentProvider 的理解？
+- ContentProvider、ContentResolver、ContentObserver 之间的关系？
+- 对 BroadcastReceiver 的理解？
+- 广播的分类？使用方式和场景？
+- 在 manifest 和代码中如何注册和使用 BroadcastReceiver？
+- 本地广播和全局广播有什么区别？
+- AlertDialog、popupWindow、Activity 之间的区别？
+- Application 和 Activity 的 Context 之间的区别？
+- Android 属性动画特性？
+- LinearLayout、RelativeLayout、FrameLayout 的特性对比及使用场景？
+- 对 SurfaceView 的了解？
+- 对 RecycleView 的了解？
 - Serializable 和 Parcelable 的区别？
-- Android中数据存储方式
+- Android 中数据存储方式有哪些？
 
 ## Android 进阶
 
-- Android 动画框架实现原理
-- Android 各个版本API的区别
-- Requestlayout，onlayout，onDraw，DrawChild 区别与联系
-- invalidate 和 postInvalidate 的区别及使用
-- Activity、Window、View 三者的差别
-- 谈谈对Volley的理解
-- 如何优化自定义View
-- 低版本SDK如何实现高版本api？
-- Bitmap 对象的理解
-- ActivityThread，AMS，WMS 的工作原理
-- 自定义View如何考虑机型适配
-- 自定义View的事件
-- LaunchMode应用场景
-- AsyncTask 如何使用?
-- SpareArray原理
-- 请介绍下ContentProvider 是如何实现数据共享的？
-- Service与Activity之间通信的几种方式
-- IntentService原理及作用是什么？
-- 说说 Activity、Intent、Service 是什么关系
-- ApplicationContext 和 ActivityContext 的区别
-- SP 是进程同步的吗?有什么方法做到同步？
-- 谈谈多线程在 Android 中的使用
-- 进程和 Application 的生命周期
-- 封装View的时候怎么知道view的大小
-- RecycleView 原理
-- AndroidManifest 的作用与理解
-- Handler 机制和底层实现
-- Handler、Thread和HandlerThread的差别
-- ThreadLocal原理，实现及如何保证Local属性？
-- 请描述一下View事件传递分发机制
-- View刷新机制
-- View绘制流程
-- 自定义控件原理
-- AsyncTask机制、原理及不足
-- 为什么不能在子线程更新UI？
-- ANR产生的原因是什么？怎么定位？
-- OOM 是什么？怎么解决？
-- OOM 是否可以 try catch？为什么？
-- 内存泄露场的解决方法
-- LruCache默认缓存大小
-- ContentProvider的权限管理
-- 计算一个view的嵌套层级
-- Activity栈
-- Android线程有没有上限？
-- 知道哪些混合开发的方式？说出它们的优缺点和各自使用场景？
-- 屏幕适配的处理技巧都有哪些?
-- 服务器只提供数据接收接口，在多线程或多进程条件下，如何保证数据的有序到达？
-- 动态布局的理解
-- 怎么去除重复代码？
 - 画出 Android 的大体架构图
-- Recycleview和ListView的区别
-- ListView 中图片错位的问题是如何产生的?
-- ListView图片加载错乱的原理和解决方案
-- 动态权限适配方案，权限组的概念
-- Android系统为什么会设计ContentProvider？
-- 下拉状态栏是不是影响activity的生命周期
-- 如果在onStop的时候做了网络请求，onResume的时候怎么恢复？
-- Android中开启摄像头的主要步骤
-- CAS介绍
+- Android 各个版本 API 的区别？
+- 低版本 SDK 如何使用高版本 API？
+- LaunchMode 的应用场景？
+- AsyncTask 如何使用?
+- AsyncTask 机制、原理及不足？
+- IntentService 原理及作用？
+- 如果在 onStop() 的时候做了网络请求，onResume() 的时候怎么恢复？
+- Recycleview 和 ListView 的区别？
+- RecycleView 实现原理？
+- ListView 图片加载错乱的原理和解决方案？
+- 屏幕适配的处理技巧都有哪些?
+- 为什么不能在子线程更新 UI？
+- Handler 机制和底层实现？
+- Handler、Thread、HandlerThread区别？
+- ThreadLocal 原理、实现及如何保证 Local 属性？
+- Activity、Window、View 三者的关系与区别？
+- ApplicationContext 和 ActivityContext 的区别？
+- ActivityThread，ActivityManagerService，WindowManagerService 的工作原理？
+- Activity 栈？
+- 自定义 View 的流程？如何机型适配？
+- 自定义 View 的时怎么获取 View 的大小？
+- View 的事件传递分发机制？
+- View 的绘制流程？
+- RequestLayout，onLayout，onDraw，DrawChild 区别与联系？(DrawChild 此处有错误)
+- invalidate 和 postInvalidate 的区别？
+- 如何计算一个 View 的嵌套层级？
+- Android 动画框架及实现原理？
+- 进程和 Application 的生命周期的关系？
+- AndroidManifest 的作用与理解？
+- SpareArray 的实现原理？
+- SharedPreferences 的实现眼里？是否进程同步？如何做到同步？
+- ContentProvider 是如何实现数据共享的？
+- ContentProvider 的权限管理？
+- Android 系统为什么会设计 ContentProvider？
+- 多线程在 Android 中的使用？
+- Android 线程有没有上限？
+- 怎么去除重复代码？
+- 动态权限适配方案，权限组的概念？
+- Android 中开启摄像头的主要流程？
+- 对 Bitmap 对象的了解？
+- 图片加载原理？
+- 图片框架实现原理？LRUCache 原理？
+- 对 Volley 的了解？
+- 对 okhttp 的了解？
+- 服务器只提供数据接收接口，在多线程或多进程条件下，如何保证数据的有序到达？
+- SQLite 数据库升级，数据迁移问题？
+- 数据库框架对比和源码分析？
+- CAS介绍，OAuth 授权机制？
+- 混合开发的方式？各自优缺点和使用场景？
 - Hybird
 - React Native
 - Weex
 - Flutter
 - Dart
 - 快应用
-- 图片库源码分析及对比
-- 图片框架缓存实现
-- LRUCache原理
-- 图片加载原理
-- 网络框架对比和源码分析
-- okhttp源码
-- 从网络加载一个10M的图片，说下注意事项
-- sqlite升级，增加字段的语句
-- 数据库框架对比和源码分析
-- 数据库数据迁移问题
+
+
+## 性能优化
+
+- 如何对 Android 应用进行性能分析以及优化?
+- ANR 产生的原因是什么？怎么定位？
+- OOM 是什么？怎么解决？是否可以 try catch？
+- 内存泄露的解决方法？
+- ddms 和 traceView 的使用？
+- 性能优化如何分析 systrace？
+- 用 IDE 如何分析内存泄漏？
+- Java 多线程引发的性能问题，怎么解决？
+- 启动页白屏、黑屏、太慢怎么解决？
+- App 启动崩溃异常怎么捕捉？
+- 如何保持应用的稳定性？
+- RecyclerView 和 ListView 的性能对比？
+- Bitmap 如何处理大图？如何预防 OOM？
+
+## Framework
+
+- 请介绍一下 NDK？
+- 如何在 jni 中注册 native 函数，有几种注册方式?
+- 什么是 AIDL？解决了什么问题？如何使用？
+- Android 进程分类？
+- 谈谈对进程共享和线程安全的认识？
+- 谈谈对多进程开发的理解以及多进程应用场景？
+- 什么是协程？
+- 逻辑地址与物理地址，为什么使用逻辑地址？
+- 系统启动流程是什么？
+- 一个应用程序安装到手机上的过程发生了什么？
+- App 启动流程，从点击桌面开始（Activity 启动流程）？
+- Android 为每个应用程序分配的内存大小是多少？
+- 进程保活的方式？
+- App 中唤醒其他进程的实现方式？
 
 ##  Gradle
 
@@ -259,44 +265,6 @@
 - 对于应用更新这块是如何做的？(解答：灰度，强制更新，分区域更新)？
 - 实现一个Json解析器(可以通过正则提高速度)
 - 统计启动时长,标准
-
-## 性能优化
-
-- 如何对Android 应用进行性能分析以及优化?
-- ddms 和 traceView
-- 性能优化如何分析systrace？
-- 用IDE如何分析内存泄漏？
-- Java多线程引发的性能问题，怎么解决？
-- 启动页白屏及黑屏解决？
-- 启动太慢怎么解决？
-- App启动崩溃异常捕捉
-- 如何保持应用的稳定性
-- RecyclerView和ListView的性能对比
-- Bitmap如何处理大图，如一张30M的大图，如何预防OOM
-- java中的四种引用的区别以及使用场景
-- 强引用置为null，会不会被回收？
-
-## Framework
-
-- 请介绍一下NDK
-- 如何在jni中注册native函数，有几种注册方式?
-- Java如何调用c、c++语言？
-- 什么是AIDL？解决了什么问题？如何使用？
-- Android进程分类？
-- 进程和 Application 的生命周期？
-- 进程调度
-- 谈谈对进程共享和线程安全的认识
-- 谈谈对多进程开发的理解以及多进程应用场景
-- 什么是协程？
-- 逻辑地址与物理地址，为什么使用逻辑地址？
-- 系统启动流程是什么
-- 一个应用程序安装到手机上时发生了什么
-- App启动流程，从点击桌面开始
-- 简述Activity启动全部过程
-- Android为每个应用程序分配的内存大小是多少？
-- 进程保活的方式
-- App中唤醒其他进程的实现方式
-
 
 
 ## 网络基础
