@@ -5,9 +5,9 @@
 ## 基础
 
 - [什么是面向对象（OOP）？](https://www.jianshu.com/p/7a5b0043b035)
-- [什么是多态？实现多态的机制是什么？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#interface-abstract)
-- 接口（Interface）与抽象类（Abstract Class）的区别？
-- 重写（Override）与重载（Overload）的区别?
+- 什么是多态？实现多态的机制是什么？
+- [接口（Interface）与抽象类（Abstract Class）的区别？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#interface-abstract)
+- [重写（Override）与重载（Overload）的区别?](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#override-overload)
 - 父类的静态方法能否被子类重写？
 - 静态属性和静态方法是否可以被继承？是否可以被重写？为什么？
 - 什么是内部类？内部类、静态内部类、局部内部类和匿名内部类的区别及作用？
