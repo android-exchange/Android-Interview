@@ -5,7 +5,7 @@
 ## 基础
 
 - [什么是面向对象（OOP）？](https://www.jianshu.com/p/7a5b0043b035)
-- 什么是多态？实现多态的机制是什么？
+- [什么是多态？实现多态的机制是什么？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#interface-abstract)
 - 接口（Interface）与抽象类（Abstract Class）的区别？
 - 重写（Override）与重载（Overload）的区别?
 - 父类的静态方法能否被子类重写？
