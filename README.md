@@ -8,7 +8,7 @@
 - 什么是多态？实现多态的机制是什么？
 - 接口（Interface）与抽象类（Abstract Class）的区别？
 - 重写（Override）与重载（Overload）的区别?
-- 父类的静态方法能否被子类重写？
+- [父类的静态方法能否被子类重写？](https://github.com/jinghuihai/Android-Interview/blob/jinghuihai-patch-1/Java.md#java_5)
 - 静态属性和静态方法是否可以被继承？是否可以被重写？为什么？
 - 什么是内部类？内部类、静态内部类、局部内部类和匿名内部类的区别及作用？
 - == 和 equals() 和 hashCode() 的区别？
