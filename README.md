@@ -93,16 +93,16 @@
 6. Activity 的四种 LaunchMode（启动模式）的区别？
 7. Activity 状态保存与恢复？
 8. Fragment 各种情况下的生命周期？
-9. [Activity 和 Fragment 之间怎么通信， Fragment 和 Fragment 怎么通信？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#android_base_9)
+9. [Activity 和 Fragment 之间怎么通信， Fragment 和 Fragment 怎么通信？](https://github.com/jeanboydev/Android-Interview/blob/master/Android.md#android_base_9)
 10. Service 的生命周期？
 11. Service 的启动方式？
 12. Service 与 IntentService 的区别?
-13. [Service 和 Activity 之间的通信方式？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#android_base_13)
+13. [Service 和 Activity 之间的通信方式？](https://github.com/jeanboydev/Android-Interview/blob/master/Android.md#android_base_13)
 14. 对 ContentProvider 的理解？
 15. ContentProvider、ContentResolver、ContentObserver 之间的关系？
 16. 对 BroadcastReceiver 的了解？
 17. 广播的分类？使用方式和场景？
-18. [动态广播和静态广播有什么区别？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#android_base_18)
+18. [动态广播和静态广播有什么区别？](https://github.com/jeanboydev/Android-Interview/blob/master/Android.md#android_base_18)
 19. AlertDialog、popupWindow、Activity 之间的区别？
 20. Application 和 Activity 的 Context 之间的区别？
 21. Android 属性动画特性？
