@@ -97,7 +97,7 @@
 15. Service 的生命周期？
 16. Service 的启动方式？
 17. Service 与 IntentService 的区别?
-14. [Service 和 Activity 之间的通信方式？](https://github.com/jeanboydev/Android-Interview/blob/master/Android.md#android_base_14)
+18. [Service 和 Activity 之间的通信方式？](https://github.com/jeanboydev/Android-Interview/blob/master/Android.md#android_base_18)
 19. 对 ContentProvider 的理解？
 20. ContentProvider、ContentResolver、ContentObserver 之间的关系？
 21. 对 BroadcastReceiver 的了解？
