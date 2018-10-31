@@ -6,16 +6,16 @@
 2. Activity 的生命周期？
 3. Activity 之间的通信方式？
 4. Activity 各种情况下的生命周期？
-1. 横竖屏切换时 Activity 的生命周期
-2. 前台切换到后台，然后再回到前台时 Activity 的生命周期
-3. 弹出 Dialog 的时候按 Home 键时 Activity 的生命周期
-4. 两个 Activity 之间跳转时的生命周期
-5. 下拉状态栏时 Activity 的生命周期
-5. Activity 与 Fragment 之间生命周期比较？
-6. Activity 的四种 LaunchMode（启动模式）的区别？
-7. Activity 状态保存与恢复？
-8. Fragment 各种情况下的生命周期？
-## <span id="android_base_9">9. Activity 和 Fragment 之间怎么通信， Fragment 和 Fragment 怎么通信？</span>
+5. 横竖屏切换时 Activity 的生命周期
+6. 前台切换到后台，然后再回到前台时 Activity 的生命周期
+7. 弹出 Dialog 的时候按 Home 键时 Activity 的生命周期
+8. 两个 Activity 之间跳转时的生命周期
+9. 下拉状态栏时 Activity 的生命周期
+10. Activity 与 Fragment 之间生命周期比较？
+11. Activity 的四种 LaunchMode（启动模式）的区别？
+12. Activity 状态保存与恢复？
+13. Fragment 各种情况下的生命周期？
+## <span id="android_base_14">14. Activity 和 Fragment 之间怎么通信， Fragment 和 Fragment 怎么通信？</span>
 
 Activity 传值给 Fragment：通过 Bundle 对象来传递，Activity 中构造 bundle 数据包，调用 Fragment 对象的 `setArguments(Bundle b)` 方法，Fragment 中使用 `getArguments()` 方法获取 Activity 传递过来的数据包取值。
 
@@ -23,19 +23,19 @@ Fragment 传值给 Activity：在 Fragment 中定义一个内部回调接口，A
 
 Fragment 传值给 Fragment：一个 Fragment 通过 Activity 获取到另外一个 Fragment 直接调用方法传值。
 
-10. Service 的生命周期？
-11. Service 的启动方式？
-12. Service 与 IntentService 的区别?
-## <span id="android_base_13">13. Service 和 Activity 之间的通信方式？</span>
+15. Service 的生命周期？
+16. Service 的启动方式？
+17. Service 与 IntentService 的区别?
+## <span id="android_base_18">18. Service 和 Activity 之间的通信方式？</span>
 
 - 通过 Binder 对象
 - 通过 Broadcast（广播）的形式
 
-14. 对 ContentProvider 的理解？
-15. ContentProvider、ContentResolver、ContentObserver 之间的关系？
-16. 对 BroadcastReceiver 的了解？
-17. 广播的分类？使用方式和场景？
-## <span id="android_base_18">18. 动态广播和静态广播有什么区别？</span>
+19. 对 ContentProvider 的理解？
+20. ContentProvider、ContentResolver、ContentObserver 之间的关系？
+21. 对 BroadcastReceiver 的了解？
+22. 广播的分类？使用方式和场景？
+## <span id="android_base_23">23. 动态广播和静态广播有什么区别？</span>
 
 - 动态的比静态的安全
 - 静态在 App 启动的时候就初始化了，动态使用代码初始化
@@ -43,23 +43,23 @@ Fragment 传值给 Fragment：一个 Fragment 通过 Activity 获取到另外一
 - 生存期，静态广播的生存期可以比动态广播的长很多
 - 优先级动态广播的优先级比静态广播高
 
-19. AlertDialog、popupWindow、Activity 之间的区别？
-20. Application 和 Activity 的 Context 之间的区别？
-21. Android 属性动画特性？
-22. LinearLayout、RelativeLayout、FrameLayout 的特性对比及使用场景？
-23. 对 SurfaceView 的了解？
-24. Serializable 和 Parcelable 的区别？
-25. Android 中数据存储方式有哪些？
-26. 屏幕适配的处理技巧都有哪些?
-27. Android 各个版本 API 的区别？
-28. 动态权限适配方案，权限组的概念？
-29. 为什么不能在子线程更新 UI？
-30. ListView 图片加载错乱的原理和解决方案？
-31. 对 RecycleView 的了解？
-32. Recycleview 和 ListView 的区别？
-33. RecycleView 实现原理？
-34. Android Manifest 的作用与理解？
-35. 多线程在 Android 中的使用？
+24. AlertDialog、popupWindow、Activity 之间的区别？
+25. Application 和 Activity 的 Context 之间的区别？
+26. Android 属性动画特性？
+27. LinearLayout、RelativeLayout、FrameLayout 的特性对比及使用场景？
+28. 对 SurfaceView 的了解？
+29. Serializable 和 Parcelable 的区别？
+30. Android 中数据存储方式有哪些？
+31. 屏幕适配的处理技巧都有哪些?
+32. Android 各个版本 API 的区别？
+33. 动态权限适配方案，权限组的概念？
+34. 为什么不能在子线程更新 UI？
+35. ListView 图片加载错乱的原理和解决方案？
+36. 对 RecycleView 的了解？
+37. Recycleview 和 ListView 的区别？
+38. RecycleView 实现原理？
+39. Android Manifest 的作用与理解？
+40. 多线程在 Android 中的使用？
 
 ## 进阶
 
