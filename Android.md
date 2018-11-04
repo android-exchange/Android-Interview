@@ -63,45 +63,85 @@ Fragment 传值给 Fragment：一个 Fragment 通过 Activity 获取到另外一
 
 ## 进阶
 
-1. 画出 Android 的大体架构图
+1. <span id="android_advance_1">画出 Android 的大体架构图</span>
+
+   ![](https://i.loli.net/2018/11/04/5bde5e25b0aa9.png)
+
 2. 低版本 SDK 如何使用高版本 API？
+
 3. AsyncTask 如何使用?
+
 4. AsyncTask 机制、原理及不足？
+
 5. 如果在 onStop() 的时候做了网络请求，onResume() 的时候怎么恢复？
+
 6. Handler 机制和底层实现？
+
 7. Handler、Thread、HandlerThread 区别？
+
 8. ThreadLocal 原理、实现及如何保证 Local 属性？
+
 9. 自定义 View 的流程？如何机型适配？
+
 10. 自定义 View 的时怎么获取 View 的大小？
+
 11. View 的绘制流程？
+
 12. View 的事件传递分发机制？
+
 13. requestLayout()，onLayout()，onDraw()，drawChild() 区别与联系？
+
 14. invalidate() 和 postInvalidate() 的区别？
+
 15. 如何计算一个 View 的嵌套层级？
+
 16. Android 动画框架及实现原理？
+
 17. 进程和 Application 的生命周期的关系？
+
 18. SpareArray 的实现原理？
+
 19. SharedPreferences 的实现眼里？是否进程同步？如何做到同步？
+
 20. ContentProvider 是如何实现数据共享的？
+
 21. ContentProvider 的权限管理？
-23. Android 系统为什么会设计 ContentProvider？
-24. Android 线程有没有上限？
-25. 怎么去除重复代码？
-26. Android 中开启摄像头的主要流程？
-27. 对 Bitmap 对象的了解？
-28. 图片加载原理？
-29. 图片压缩原理？
-30. 图片框架实现原理？LRUCache 原理？
-31. EventBus 实现原理？
-32. ButterKnife 实现原理？
-33. Volley 实现原理？
-34. okhttp 实现原理？
-35. 服务器只提供数据接收接口，在多线程或多进程条件下，如何保证数据的有序到达？
-36. SQLite 数据库升级，数据迁移问题？
-37. 数据库框架对比和源码分析？
-38. CAS介绍，OAuth 授权机制？
-39. 谈谈你对安卓签名的理解
-40. App 是如何沙箱化，为什么要这么做？
+
+22. Android 系统为什么会设计 ContentProvider？
+
+23. Android 线程有没有上限？
+
+24. 怎么去除重复代码？
+
+25. Android 中开启摄像头的主要流程？
+
+26. 对 Bitmap 对象的了解？
+
+27. 图片加载原理？
+
+28. 图片压缩原理？
+
+29. 图片框架实现原理？LRUCache 原理？
+
+30. EventBus 实现原理？
+
+31. ButterKnife 实现原理？
+
+32. Volley 实现原理？
+
+33. okhttp 实现原理？
+
+34. 服务器只提供数据接收接口，在多线程或多进程条件下，如何保证数据的有序到达？
+
+35. SQLite 数据库升级，数据迁移问题？
+
+36. 数据库框架对比和源码分析？
+
+37. CAS介绍，OAuth 授权机制？
+
+38. 谈谈你对安卓签名的理解
+
+39. App 是如何沙箱化，为什么要这么做？
 
 ## 混合开发
 

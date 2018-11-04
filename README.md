@@ -123,7 +123,7 @@
 
 ## 进阶
 
-1. 画出 Android 的大体架构图
+1. [画出 Android 的大体架构图](https://github.com/jeanboydev/Android-Interview/blob/master/Android.md#android_advance_1)
 2. 低版本 SDK 如何使用高版本 API？
 3. AsyncTask 如何使用?
 4. AsyncTask 机制、原理及不足？
