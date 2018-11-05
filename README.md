@@ -59,7 +59,7 @@
 
 ## JVM
 
-1. 简述 JVM 内存模型和内存区域？
+1. [简述 JVM 内存模型和内存区域？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#jvm_1)
 2. 简述垃圾回收器的工作原理？
 3. 如何判断对象的生死？垃圾回收算法？新生代，老生代？
 4. 哪些情况下的对象会被垃圾回收机制处理掉？
