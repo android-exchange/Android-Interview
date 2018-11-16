@@ -81,87 +81,170 @@
 ## 基础
 
 1. 四大组件是什么？
+
 2. Activity 的生命周期？
+
 3. Activity 之间的通信方式？
+
 4. Activity 各种情况下的生命周期？
+
 5. 横竖屏切换时 Activity 的生命周期
+
 6. 前台切换到后台，然后再回到前台时 Activity 的生命周期
+
 7. 弹出 Dialog 的时候按 Home 键时 Activity 的生命周期
+
 8. 两个 Activity 之间跳转时的生命周期
+
 9. 下拉状态栏时 Activity 的生命周期
+
 10. Activity 与 Fragment 之间生命周期比较？
+
 11. Activity 的四种 LaunchMode（启动模式）的区别？
+
 12. Activity 状态保存与恢复？
+
 13. Fragment 各种情况下的生命周期？
+
 14. [Activity 和 Fragment 之间怎么通信， Fragment 和 Fragment 怎么通信？](https://github.com/jeanboydev/Android-Interview/blob/master/Android.md#android_base_14)
+
 15. Service 的生命周期？
+
 16. Service 的启动方式？
+
 17. Service 与 IntentService 的区别?
+
 18. [Service 和 Activity 之间的通信方式？](https://github.com/jeanboydev/Android-Interview/blob/master/Android.md#android_base_18)
+
 19. 对 ContentProvider 的理解？
+
 20. ContentProvider、ContentResolver、ContentObserver 之间的关系？
+
 21. 对 BroadcastReceiver 的了解？
+
 22. 广播的分类？使用方式和场景？
+
 23. [动态广播和静态广播有什么区别？](https://github.com/jeanboydev/Android-Interview/blob/master/Android.md#android_base_23)
+
 24. AlertDialog、popupWindow、Activity 之间的区别？
+
 25. Application 和 Activity 的 Context 之间的区别？
+
 26. Android 属性动画特性？
-27. LinearLayout、RelativeLayout、FrameLayout 的特性对比及使用场景？
+
+27. 请列举 Android 中常见的布局（Layout）类型，并简述其用法，以及排版效率。【猎豹移动】
+
+    LinearLayout、RelativeLayout、FrameLayout 的特性对比及使用场景？
+
 28. 对 SurfaceView 的了解？
+
 29. Serializable 和 Parcelable 的区别？
+
 30. Android 中数据存储方式有哪些？
+
 31. 屏幕适配的处理技巧都有哪些?
+
 32. Android 各个版本 API 的区别？
+
 33. 动态权限适配方案，权限组的概念？
+
 34. 为什么不能在子线程更新 UI？
+
 35. ListView 图片加载错乱的原理和解决方案？
+
 36. 对 RecycleView 的了解？
+
 37. Recycleview 和 ListView 的区别？
+
 38. RecycleView 实现原理？
+
 39. Android Manifest 的作用与理解？
+
 40. 多线程在 Android 中的使用？
+
+41. 区别 Animation 和 Animator 的用法，概述实现原理？【猎豹移动】
 
 ## 进阶
 
 1. [画出 Android 的大体架构图](https://github.com/jeanboydev/Android-Interview/blob/master/Android.md#android_advance_1)
+
 2. 低版本 SDK 如何使用高版本 API？
+
 3. AsyncTask 如何使用?
+
 4. AsyncTask 机制、原理及不足？
+
 5. 如果在 onStop() 的时候做了网络请求，onResume() 的时候怎么恢复？
+
 6. Handler 机制和底层实现？
+
 7. Handler、Thread、HandlerThread 区别？
+
+   Thread、Looper、MessageQueue、Handler、Message，每个类的功能是什么，这些类之间是什么关系？【猎豹移动】
+
 8. ThreadLocal 原理、实现及如何保证 Local 属性？
+
 9. 自定义 View 的流程？如何机型适配？
+
 10. 自定义 View 的时怎么获取 View 的大小？
+
 11. View 的绘制流程？
+
 12. View 的事件传递分发机制？
+
 13. requestLayout()，onLayout()，onDraw()，drawChild() 区别与联系？
+
 14. invalidate() 和 postInvalidate() 的区别？
+
 15. 如何计算一个 View 的嵌套层级？
+
 16. Android 动画框架及实现原理？
+
 17. 进程和 Application 的生命周期的关系？
+
 18. SpareArray 的实现原理？
+
 19. SharedPreferences 的实现眼里？是否进程同步？如何做到同步？
+
 20. ContentProvider 是如何实现数据共享的？
+
 21. ContentProvider 的权限管理？
-23. Android 系统为什么会设计 ContentProvider？
-24. Android 线程有没有上限？
-25. 怎么去除重复代码？
-26. Android 中开启摄像头的主要流程？
-27. 对 Bitmap 对象的了解？
-28. 图片加载原理？
-29. 图片压缩原理？
-30. 图片框架实现原理？LRUCache 原理？
-31. EventBus 实现原理？
-32. ButterKnife 实现原理？
-33. Volley 实现原理？
-34. okhttp 实现原理？
-35. 服务器只提供数据接收接口，在多线程或多进程条件下，如何保证数据的有序到达？
-36. SQLite 数据库升级，数据迁移问题？
-37. 数据库框架对比和源码分析？
-38. CAS介绍，OAuth 授权机制？
-39. 谈谈你对安卓签名的理解
-40. App 是如何沙箱化，为什么要这么做？
+
+22. Android 系统为什么会设计 ContentProvider？
+
+23. Android 线程有没有上限？
+
+24. 怎么去除重复代码？
+
+25. Android 中开启摄像头的主要流程？
+
+26. 对 Bitmap 对象的了解？
+
+27. 图片加载原理？
+
+28. 图片压缩原理？
+
+29. 图片框架实现原理？LRUCache 原理？
+
+30. EventBus 实现原理？
+
+31. ButterKnife 实现原理？
+
+32. Volley 实现原理？
+
+33. okhttp 实现原理？
+
+34. 服务器只提供数据接收接口，在多线程或多进程条件下，如何保证数据的有序到达？
+
+35. SQLite 数据库升级，数据迁移问题？
+
+36. 数据库框架对比和源码分析？
+
+37. CAS介绍，OAuth 授权机制？
+
+38. 谈谈你对安卓签名的理解
+
+39. App 是如何沙箱化，为什么要这么做？
 
 ## 混合开发
 
@@ -176,7 +259,7 @@
 ## Framework
 
 1. 请介绍一下 NDK？
-2. 如何在 jni 中注册 native 函数，有几种注册方式?
+2. 如何加载 ndk 库？如何在 jni 中注册 native 函数，有几种注册方式?【猎豹移动】
 3. Android 进程分类？
 4. 谈谈对进程共享和线程安全的认识？
 5. 谈谈对多进程开发的理解以及多进程应用场景？
@@ -196,23 +279,41 @@
 19. PackageManagerService 的工作原理？
 20. PowerManagerService 的工作原理？
 21. 权限管理系统（底层的权限是如何进行 grant 的）？
+22. 操作系统中进程和线程有什么区别？系统在什么情况下会在用户态和内核态中切换？【猎豹移动】
+23. 如果一个 App 里面有多个进程存在，请列举你所知道的全部 IPC 方法。
 
 ## 性能优化
 
 1. 如何对 Android 应用进行性能分析以及优化?
+
 2. ANR 产生的原因是什么？怎么定位？
+
 3. OOM 是什么？怎么解决？是否可以 try catch？
+
 4. 内存泄露的解决方法？
+
 5. ddms 和 traceView 的使用？
+
 6. 性能优化如何分析 systrace？
+
 7. 用 IDE 如何分析内存泄漏？
+
 8. Java 多线程引发的性能问题，怎么解决？
+
 9. 启动页白屏、黑屏、太慢怎么解决？
+
 10. App 启动崩溃异常怎么捕捉？
+
+    对于 Android App 闪退，可能有哪些原因？请针对每种情况简述分析过程。【猎豹移动】
+
 11. 如何保持应用的稳定性？
+
 12. RecyclerView 和 ListView 的性能对比？
+
 13. Bitmap 如何处理大图？如何预防 OOM？
+
 14. 如何缩小 Apk 的体积?
+
 15. 如何统计启动时长？
 
 ##  Gradle
@@ -300,9 +401,15 @@
 ## 架构
 
 - MVC、MVP、MVVM 原理和区别？- 对 RxJava 的理解，功能与原理，优缺点？
+
+  请画出 MVC、MVP 的差异？【猎豹移动】
+
 - 从 0 设计一款 App 整体架构，如何去做？
+
 - Fragment 如果在 Adapter 中使用应该如何解耦？
+
 - 对于应用更新这块是如何做的？(解答：灰度，强制更新，分区域更新)？
+
 - 实现一个 Json 解析器（可以通过正则提高速度）？
 
 ----------
