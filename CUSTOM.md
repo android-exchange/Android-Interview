@@ -68,11 +68,9 @@
 
   例如：
 
-  <img src="https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode/blob/master/resources/images/wechat/qrcode_for_gh_26eef6f9e7c1_258.jpg?raw=true" alt="公众号二维码" style="height:128px;width:128px;" />
+  <center><img src="https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode/blob/master/resources/images/wechat/qrcode_for_gh_26eef6f9e7c1_258.jpg?raw=true" alt="公众号二维码" style="height:128px;width:128px;" /></center>
 
   <center>图01 公众号二维码</center>
-
-### 其他
 
 ### 其他
 
