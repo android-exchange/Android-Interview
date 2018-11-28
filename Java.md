@@ -259,7 +259,7 @@ String a = "abc"
 2. Exception 和 Error 有什么区别？
 3. 谈谈 final、finally、finalize 有什么不同？
 4. 强引用、软引用、弱引用、幻想引用有什么区别？
-5. String、StringBuffer、StringBuilder有什么区别？
+5. String、StringBuffer、StringBuilder 有什么区别？
 6. 动态代理基于什么原理？
 7. int 和 Integer 有什么区别？
 8. 对比 Vector、ArrayList、LinkedList 有何区别？
