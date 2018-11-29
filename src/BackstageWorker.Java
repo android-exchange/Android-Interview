@@ -156,7 +156,7 @@ public class BackstageWorker {
     }
 
     private static String getDomainNameConversion(File file){
-        String domainName = "https://github.com/android-exchange/Android-Interview";
+        String domainName = "https://github.com/android-exchange/Android-Interview/tree/master";
 
         Path path = Paths.get(file.getPath().replace(System.getProperty("user.dir"),""));
         StringBuilder stringBuilder = new StringBuilder();
