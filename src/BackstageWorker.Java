@@ -97,11 +97,11 @@ public class BackstageWorker {
                 e.printStackTrace();
             }
         }else if (!tagerFile.isDirectory()){
-            for (int i = 0; i < floor; i++) {
-                stringBuilder.append("#");
-            }
+//            for (int i = 0; i < floor; i++) {
+//                stringBuilder.append("#");
+//            }
             stringBuilder
-                    .append(" [")
+                    .append("##### [")
                     .append(tagerFile.getName())
                     .append("](")
                     .append(getDomainNameConversion(tagerFile))
