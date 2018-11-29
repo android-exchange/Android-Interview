@@ -12,6 +12,13 @@ public class BackstageWorker {
         directoryUpdate(null,null,0);
     }
 
+    /**
+     * Newcomer registration
+     * @param arrayList null
+     * @param file null
+     * @param sequence 0
+     * @return maxSize
+     */
     private static int newcomerRegistration(ArrayList<File> arrayList, File file, int sequence) {
         if (file != null && !file.isDirectory() && -1 != getIndex(file)) {
             Integer integer = getIndex(file);
@@ -69,7 +76,13 @@ public class BackstageWorker {
         return sequence;
     }
 
-    public static void directoryUpdate(File tagerFile,StringBuilder stringBuilder,int floor) {
+    /**
+     * Update directory
+     * @param tagerFile null
+     * @param stringBuilder null
+     * @param floor 0
+     */
+    private static void directoryUpdate(File tagerFile,StringBuilder stringBuilder,int floor) {
         if (tagerFile == null) {
             File file = Paths.get(System.getProperty("user.dir"), "Directory.md").toFile();
             if (!file.exists()) {
@@ -124,6 +137,10 @@ public class BackstageWorker {
                 }
             }
         }
+    }
+
+    private static void reviewEditorProgress(){
+
     }
 
     private static int getIndex(File file) {
