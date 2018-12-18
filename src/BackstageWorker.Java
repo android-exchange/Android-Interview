@@ -139,7 +139,7 @@ public class BackstageWorker {
         }
     }
 
-    private static void reviewEditorProgress(){
+    private static void statisticalProgress(){
 
     }
 
