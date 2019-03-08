@@ -6,10 +6,10 @@
 
 ### 基础
 
-- [什么是面向对象（OOP）？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#java_1)
-- [什么是多态？实现多态的机制是什么？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#java_2)
-- [接口（Interface）与抽象类（Abstract Class）的区别？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#java_3)
-- [重写（Override）与重载（Overload）的区别?](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#java_4)
+- [什么是面向对象（OOP）？](https://github.com/jeanboydev/Android-Interview/blob/master/java/java.md#java_1)
+- [什么是多态？实现多态的机制是什么？](https://github.com/jeanboydev/Android-Interview/blob/master/java/java.md#java_2)
+- [接口（Interface）与抽象类（Abstract Class）的区别？](https://github.com/jeanboydev/Android-Interview/blob/master/java/java.md#java_3)
+- [重写（Override）与重载（Overload）的区别?](https://github.com/jeanboydev/Android-Interview/blob/master/java/java.md#java_4)
 - 父类的静态方法能否被子类重写？
 - 静态属性和静态方法是否可以被继承？是否可以被重写？为什么？
 - 什么是内部类？内部类、静态内部类、局部内部类和匿名内部类的区别及作用？
@@ -19,15 +19,15 @@
 - 自动装箱实现原理？类型转换实现原理？
 - 对 String 的了解？
 - String 为什么要设计成不可变的？
-- [final、finally 和 finalize 的区别？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#java_14)
-- [static 关键字有什么作用？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#java_15)
+- [final、finally 和 finalize 的区别？](https://github.com/jeanboydev/Android-Interview/blob/master/java/java.md#java_14)
+- [static 关键字有什么作用？](https://github.com/jeanboydev/Android-Interview/blob/master/java/java.md#java_15)
 - 列举 Java 的集合以及集合之间的继承关系?
 - List、Set、Map 的区别？
-- [ArrayList、LinkedList 的区别？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#java_18)
+- [ArrayList、LinkedList 的区别？](https://github.com/jeanboydev/Android-Interview/blob/master/java/java.md#java_18)
 - HashMap，HashTable，ConcurrentHashMap 实现原理以及区别？
 - HashSet 与 HashMap 怎么判断集合元素重复？
 - String、StringBuffer、StringBuilder 之间的区别？
-- [什么是序列化？怎么实现？有哪些方式？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#java_22)
+- [什么是序列化？怎么实现？有哪些方式？](https://github.com/jeanboydev/Android-Interview/blob/master/java/java.md#java_22)
 - 对反射的了解？
 - 对注解的了解？
 - 对依赖注入的了解？
@@ -59,16 +59,16 @@
 
 ###  JVM
 
-- [简述 JVM 内存模型和内存区域？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#jvm_1)
+- [简述 JVM 内存模型和内存区域？](https://github.com/jeanboydev/Android-Interview/blob/master/java/java.md#jvm_1)
 - 简述垃圾回收器的工作原理？
 - 如何判断对象的生死？垃圾回收算法？新生代，老生代？
 - 哪些情况下的对象会被垃圾回收机制处理掉？
 - 垃圾回收机制与调用 System.gc() 的区别？
-- [强引用、软引用、弱引用、虚引用之间的区别？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#java_53)
+- [强引用、软引用、弱引用、虚引用之间的区别？](https://github.com/jeanboydev/Android-Interview/blob/master/java/java.md#java_53)
 - 强引用设置为 null，会不会被回收？
 - 简述 ClassLoader 类加载机制？
 - 对双亲委派模型的了解？
-- [String a = "a"+"b"+"c" 在内存中创建几个对象？](https://github.com/jeanboydev/Android-Interview/blob/master/Java.md#java_57)
+- [String a = "a"+"b"+"c" 在内存中创建几个对象？](https://github.com/jeanboydev/Android-Interview/blob/master/java/java.md#java_57)
 - 对 Dalvik、ART 虚拟机的了解？
 - 对动态加载（OSGI）的了解？
 - 常见编码方式有哪些？
@@ -91,16 +91,16 @@
 - Activity 的四种 LaunchMode（启动模式）的区别？
 - Activity 状态保存与恢复？
 - Fragment 各种情况下的生命周期？
--  [Activity 和 Fragment 之间怎么通信， Fragment 和 Fragment 怎么通信？](https://github.com/jeanboydev/Android-Interview/blob/master/Android.md#android_base_14)
+-  [Activity 和 Fragment 之间怎么通信， Fragment 和 Fragment 怎么通信？](https://github.com/jeanboydev/Android-Interview/blob/master/android/android.md#android_base_14)
 - Service 的生命周期？
 - Service 的启动方式？
 - Service 与 IntentService 的区别?
-- [Service 和 Activity 之间的通信方式？](https://github.com/jeanboydev/Android-Interview/blob/master/Android.md#android_base_18)
+- [Service 和 Activity 之间的通信方式？](https://github.com/jeanboydev/Android-Interview/blob/master/android/android.md#android_base_18)
 - 对 ContentProvider 的理解？
 - ContentProvider、ContentResolver、ContentObserver 之间的关系？
 - 对 BroadcastReceiver 的了解？
 - 广播的分类？使用方式和场景？
-- [动态广播和静态广播有什么区别？](https://github.com/jeanboydev/Android-Interview/blob/master/Android.md#android_base_23)
+- [动态广播和静态广播有什么区别？](https://github.com/jeanboydev/Android-Interview/blob/master/android/android.md#android_base_23)
 - AlertDialog、popupWindow、Activity 之间的区别？
 - Application 和 Activity 的 Context 之间的区别？
 - Android 属性动画特性？
@@ -123,7 +123,7 @@
 
 ### 高级
 
-- [画出 Android 的大体架构图](https://github.com/jeanboydev/Android-Interview/blob/master/Android.md#android_advance_1)
+- [画出 Android 的大体架构图](https://github.com/jeanboydev/Android-Interview/blob/master/android/android.md#android_advance_1)
 - 低版本 SDK 如何使用高版本 API？
 - AsyncTask 如何使用?
 - AsyncTask 机制、原理及不足？
@@ -235,7 +235,7 @@
 
 ## 网络技术
 
-- [描述一次网络请求的流程?](https://github.com/jeanboydev/Android-Interview/blob/master/Network.md#quest_network_technological_process)
+- [描述一次网络请求的流程?](https://github.com/jeanboydev/Android-Interview/blob/master/network/network.md#quest_network_technological_process)
 - TCP 中 3 次握手和 4 次挥手的过程?
 - TCP 与 UDP 的区别及应用?
 - HTTP 协议
