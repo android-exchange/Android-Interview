@@ -1,6 +1,12 @@
-# Android
+# Android 开发相关精华面试题
 
 ## 概述
+
+该项目主要收集 Android 开发相关最具价值的面试题，已包含各个大厂的面试题及常见套路。
+
+虽然不推荐大家刷题，这里仅供大家差缺补漏。所有的知识点还是重在自己理解，用自己的方式表达出来比较好。
+
+该项目持续更新，欢迎大家 Star，如果有更优质的面试题欢迎联系我们提交。
 
 ## Java
 
@@ -382,4 +388,13 @@
 
 ## 成员
 
-## 声明
+- [singwhatiwanna](https://github.com/singwhatiwanna)
+- [Daimhim](https://github.com/Daimhim)
+- [Jeanboy](https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode)
+- [ljingya](https://github.com/ljingya)
+- [沐小晨曦](https://github.com/Omooo)
+- [scofeildsun](https://github.com/scofeildsun)
+- [Mr.S](https://github.com/shishaoyan)
+- [shulianpang](https://github.com/shulianpang)
+
+同时欢迎大家加入我们一起整理收集，整理面试题不仅仅是对自己技术的检验，也可以帮助大家，为开源做一下贡献，期待您的加入。（申请加入请联系： [Jeanboy](https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode)）
