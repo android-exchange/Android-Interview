@@ -307,78 +307,78 @@
 
 ## 人事相关
 
-- 请简单做个自我介绍？
-- 为什么离开上家公司？您在前一家公司的离职原因是什么？
-- 为什么要做 xxx 岗位（出现所学专业与求职岗位不同时提问）?
-- 讲一个你认为做的最好的项目/案例
-- 你应聘该岗位的优势是什么？
-- 你上家公司的薪水/期望的薪金？
-- 你对薪资的要求？
-- 谈谈你对跳槽的看法？
-- 对待加班看法？
-- 自己最擅长的技术点，最感兴趣的技术领域和技术点，做了那些东西？
-- 自己的优点和缺点是什么？并举例说明？
-- 你朋友对你的评价？
-- 说下项目中遇到的棘手问题，包括技术，交际和沟通？
+- [请简单做个自我介绍？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_1)
+- [为什么离开上家公司？您在前一家公司的离职原因是什么？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_2)
+- [为什么要做 xxx 岗位（出现所学专业与求职岗位不同时提问）?](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_3)
+- [讲一个你认为做的最好的项目/案例](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_4)
+- [你应聘该岗位的优势是什么？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_5)
+- [你上家公司的薪水/期望的薪金？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_6)
+- [你对薪资的要求？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_7)
+- [谈谈你对跳槽的看法？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_8)
+- [对待加班看法？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_9)
+- [自己最擅长的技术点，最感兴趣的技术领域和技术点，做了那些东西？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_10)
+- [自己的优点和缺点是什么？并举例说明？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_11)
+- [你朋友对你的评价？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_12)
+- [说下项目中遇到的棘手问题，包括技术，交际和沟通？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_13)
   项目中遇到最大的困难是什么？如何解决的？
-- 在五年的时间内，你的职业规划？
-- 给你一个项目，你怎么看待他的市场和技术的关系？
-- 你一般喜欢从什么渠道获取技术信息和提高自己的能力？
+- [在五年的时间内，你的职业规划？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_14)
+- [给你一个项目，你怎么看待他的市场和技术的关系？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_15)
+- [你一般喜欢从什么渠道获取技术信息和提高自己的能力？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_16)
   你的学习方法是什么样的？实习过程中如何学习？实习项目中遇到的最大困难是什么以及如何解决的？
-- 如果实际工作后发现自己不适合这个职位怎么办？
+- [如果实际工作后发现自己不适合这个职位怎么办？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_17)
   如果通过这次面试我们单位录用了你，但工作一段时间却发现你根本不适合这个职位，你怎么办？
-- 工作上与领导意见不同时，怎么办？
-- 如果你的主管抢了你的功劳你该怎样？
-- 若上司在公开会议上误会你了，该如何解决？
-- 工作中你难以和同事、上司相处，你该怎么办？
-- 因成绩比较突出，受同事们孤立你怎么看？
-- 你和别人发生过争执吗？你是怎样解决的？
-- 如果工作失误，给公司造成经济损失，你该怎么办？
-- 你对于我们公司了解多少？
-- 你为什么愿意到我们公司来工作？
-- 你能为我们公司带来什么？
-- 你最擅长的技术点，最感兴趣的技术领域和技术点？
-- 说说你对行业、技术发展趋势的看法？
-- 理想中的工作环境是什么？
-- 说说你的家庭？
-- 就你申请的这个职位，你认为你还欠缺什么？
-- 你做过的哪件事最令自己感到骄傲？说一件最能证明你能力的事情？
-- 对这项工作，你有哪些可预见的困难？
-- 如果被录用，你将怎样开展工作？
-- 希望与什么样的上级共事？
-- 你工作经验欠缺，如何能胜任这项工作？ 
-- 如果你在这次面试中没有被录用，你怎么打算？
-- 除了本公司外，还应聘了哪些公司？
-- 你还要什么了解和要问的吗？
-- 实习过程中周围同事/同学有哪些值得学习的地方？
-- 是否可以实习，可以实习多久？
-- 实习过程中做了什么，有什么产出？
-- 公司实习最大的收获是什么？
-- 评价下自己，评价下自己的技术水平，个人代码量如何？
-- 当前的 offer 状况；如果 BATH 都给了offer 该如何选？
-- 你对一份工作更看重哪些方面？平台，技术，氛围，城市，还是 money？
-- 假如你晚上要去送一个出国的同学去机场，可单位临时有事非你办不可，你怎么办？
-- 你看中公司的什么？或者公司的那些方面最吸引你？
-- 讲一件你印象最深的一件事情？
-- 介绍你做过的哪些项目，介绍一个你影响最深的项目？
-- 你做过的哪件事最令自己感到骄傲？
-- 都使用过哪些框架、平台？
-- 都使用过哪些自定义控件？
-- 项目中用了哪些开源库，如何避免因为引入开源库而导致的安全性和稳定性问题？
-- 有没有什么开源项目？
-- 研究比较深入的领域有哪些？
-- 对业内信息的关注渠道有哪些？
-- 业余都有哪些爱好？
-- 最近都读哪些书？
-- 你的梦想是什么？
+- [工作上与领导意见不同时，怎么办？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_18)
+- [如果你的主管抢了你的功劳你该怎样？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_19)
+- [若上司在公开会议上误会你了，该如何解决？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_20)
+- [工作中你难以和同事、上司相处，你该怎么办？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_21)
+- [因成绩比较突出，受同事们孤立你怎么看？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_22)
+- [你和别人发生过争执吗？你是怎样解决的？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_23)
+- [如果工作失误，给公司造成经济损失，你该怎么办？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_24)
+- [你对于我们公司了解多少？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_25)
+- [你为什么愿意到我们公司来工作？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_26)
+- [你能为我们公司带来什么？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_27)
+- [你最擅长的技术点，最感兴趣的技术领域和技术点？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_28)
+- [说说你对行业、技术发展趋势的看法？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_29)
+- [理想中的工作环境是什么？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_30)
+- [说说你的家庭？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_31)
+- [就你申请的这个职位，你认为你还欠缺什么？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_32)
+- [你做过的哪件事最令自己感到骄傲？说一件最能证明你能力的事情？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_33)
+- [对这项工作，你有哪些可预见的困难？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_34)
+- [如果被录用，你将怎样开展工作？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_35)
+- [希望与什么样的上级共事？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_36)
+- [你工作经验欠缺，如何能胜任这项工作？ ](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_37)
+- [如果你在这次面试中没有被录用，你怎么打算？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_38)
+- [除了本公司外，还应聘了哪些公司？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_39)
+- [你还要什么了解和要问的吗？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_40)
+- [实习过程中周围同事/同学有哪些值得学习的地方？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_41)
+- [是否可以实习，可以实习多久？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_42)
+- [实习过程中做了什么，有什么产出？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_43)
+- [公司实习最大的收获是什么？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_44)
+- [评价下自己，评价下自己的技术水平，个人代码量如何？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_45)
+- [当前的 offer 状况；如果 BATH 都给了offer 该如何选？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_46)
+- [你对一份工作更看重哪些方面？平台，技术，氛围，城市，还是 money？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_47)
+- [假如你晚上要去送一个出国的同学去机场，可单位临时有事非你办不可，你怎么办？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_48)
+- [你看中公司的什么？或者公司的那些方面最吸引你？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_49)
+- [讲一件你印象最深的一件事情？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_50)
+- [介绍你做过的哪些项目，介绍一个你影响最深的项目？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_51)
+- [你做过的哪件事最令自己感到骄傲？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_52)
+- [都使用过哪些框架、平台？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_53)
+- [都使用过哪些自定义控件？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_54)
+- [项目中用了哪些开源库，如何避免因为引入开源库而导致的安全性和稳定性问题？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_55)
+- [有没有什么开源项目？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_56)
+- [研究比较深入的领域有哪些？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_57)
+- [对业内信息的关注渠道有哪些？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_58)
+- [业余都有哪些爱好？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_59)
+- [最近都读哪些书？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_60)
+- [你的梦想是什么？](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_61)
 
 ## 常见套路
 
 如果有遇到以下这些情况，你可以继续投简历：
 
-- 我们 xx 总不在，会叫 hr 联系你，你先回去等通知
-- 面试叫你带上以往作品（工作成绩需要以往作品展示的除外，如：ui）然后面试官一直问你方案是怎么做的
-- 遇到面试官敷衍随便问问题
+- [我们 xx 总不在，会叫 hr 联系你，你先回去等通知](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_62)
+- [面试叫你带上以往作品（工作成绩需要以往作品展示的除外，如：ui）然后面试官一直问你方案是怎么做的](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_63)
+- [遇到面试官敷衍随便问问题](https://github.com/jeanboydev/Android-Interview/blob/master/other/other.md#other_64)
 
 ## 成员
 
