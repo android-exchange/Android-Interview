@@ -1,4 +1,6 @@
 
+import javafx.util.Pair;
+
 import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -8,7 +10,8 @@ import java.util.regex.Pattern;
 
 public class BackstageWorker {
     public static void main(String[] args) {
-        statisticalProgress();
+        File sourceFile = getSourceFile();
+        statisticalProgress(sourceFile, null);
     }
 
     /**
@@ -86,14 +89,7 @@ public class BackstageWorker {
     private static void directoryUpdate(File tagerFile, StringBuilder stringBuilder, int floor) {
         if (tagerFile == null) {
             File file = Paths.get(System.getProperty("user.dir"), "Directory.md").toFile();
-            if (!file.exists()) {
-                try {
-                    boolean newFile = file.createNewFile();
-                    System.out.println("newFile:" + newFile);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
+            createNewFile(file);
             File sourceFile = getSourceFile();
             File[] files = sourceFile.listFiles();
             if (files != null) {
@@ -140,12 +136,50 @@ public class BackstageWorker {
         }
     }
 
-    private static void statisticalProgress() {
-        File sourceFile = getSourceFile();
-        if (sourceFile.isDirectory()){
-
+    private static void statisticalProgress(File sourceFile, List<Pair<Long, String>> arrayList) {
+        if (arrayList == null) {
+            arrayList = new LinkedList<>();
+        }
+        if (sourceFile.isDirectory()) {
+            File[] files = sourceFile.listFiles();
+            for (int i = 0; i < files.length; i++) {
+                statisticalProgress(files[i], arrayList);
+            }
+            arrayList = new ArrayList<>(arrayList);
+            arrayList.sort((o1, o2) -> o1.getKey() > o2.getKey() ? 0 : -1);
+            File file = Paths.get(System.getProperty("user.dir"), "ProjectProgress.md").toFile();
+            createNewFile(file);
+            try {
+                BufferedWriter bw = new BufferedWriter(new FileWriter(file));
+                for (int i = 0; i < arrayList.size(); i++) {
+                    Pair<Long, String> longStringPair = arrayList.get(i);
+                    File file1 = new File(longStringPair.getValue());
+                    bw.write("+ [" + file1.getName());
+                    bw.write("(" + longStringPair.getKey() + ")]");
+                    bw.write("(");
+                    bw.write(getDomainNameConversion(file1));
+                    bw.write("\n");
+                    bw.flush();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } else {
+            arrayList.add(new Pair<>(sourceFile.length(), sourceFile.getPath()));
         }
     }
+
+    private static void createNewFile(File file) {
+        if (!file.exists()) {
+            try {
+                boolean newFile = file.createNewFile();
+                System.out.println("createNewFile:" + newFile);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+
 
     private static int getIndex(File file) {
         int index = -1;
@@ -167,14 +201,6 @@ public class BackstageWorker {
         return index;
     }
 
-    /**
-     * get source file
-     *
-     * @return
-     */
-    private static File getSourceFile() {
-        return Paths.get(System.getProperty("user.dir"), "resources", "sourcefile").toFile();
-    }
 
     private static String getDomainNameConversion(File file) {
         String domainName = "https://github.com/android-exchange/Android-Interview/tree/master";
@@ -188,4 +214,23 @@ public class BackstageWorker {
         }
         return stringBuilder.toString();
     }
+
+    /**
+     * get source file
+     *
+     * @return
+     */
+    private static File getSourceFile() {
+        return Paths.get(System.getProperty("user.dir"), "resources", "sourcefile").toFile();
+    }
+
+    /**
+     * get base file
+     *
+     * @return
+     */
+    private static File getBaseFile() {
+        return Paths.get(System.getProperty("user.dir")).toFile();
+    }
+
 }
