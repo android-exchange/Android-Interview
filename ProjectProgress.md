@@ -1,4 +1,4 @@
-+ [-10-内部类和静态内部类和匿名内部类，以及项目中的应用.md(32)](https://github.com/android-exchange/Android-Interview/tree/master/resources/sourcefile/基本知识点3初中级/java基础/-10-内部类和静态内部类和匿名内部类，以及项目中的应用.md
++ [-10-内部类和静态内部类和匿名内部类，以及项目中的应用.md(32)](https://github.com/android-exchange/Android-Interview/tree/master/resources/sourcefile/基本知识点3初中级/java基础/-10-内部类和静态内部类和匿名内部类，以及项目中的应用.md)
 + [-68-如何判断应用被强制杀死.md(32)](https://github.com/android-exchange/Android-Interview/tree/master/resources/sourcefile/基本知识点3初中级/Android基础/-68-如何判断应用被强制杀死.md
 + [-67-SQLite的基础操作。.md(32)](https://github.com/android-exchange/Android-Interview/tree/master/resources/sourcefile/基本知识点3初中级/Android基础/-67-SQLite的基础操作。.md
 + [-65-怎么在主线程中通知子线程-这样做有什么好处.md(32)](https://github.com/android-exchange/Android-Interview/tree/master/resources/sourcefile/基本知识点3初中级/Android基础/-65-怎么在主线程中通知子线程-这样做有什么好处.md
