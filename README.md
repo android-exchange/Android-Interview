@@ -19,7 +19,7 @@
 - 父类的静态方法能否被子类重写？
 - 静态属性和静态方法是否可以被继承？是否可以被重写？为什么？
 - 什么是内部类？内部类、静态内部类、局部内部类和匿名内部类的区别及作用？
-- == 和 equals() 和 hashCode() 的区别？
+- == 和 equals() 和 hashCode() 的区别？(https://github.com/jeanboydev/Android-Interview/blob/master/java/java.md#java_8)
 - Integer 和 int 之间的区别？
 - String 转换成 Integer 的方式及原理？
 - 自动装箱实现原理？类型转换实现原理？
